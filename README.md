@@ -4,4 +4,4 @@
 
 2) Just clone the repo in C:\Apache24\htdocs folder and click on index.php.
  
-3)Create a table name users in mysql 
+3) Create a table name users in mysql 
