@@ -48,7 +48,6 @@ $usersall = mysqli_fetch_all($results1, MYSQLI_ASSOC);
 
     <section id="queue">
 
-
         <div class="horizon">
             <?php foreach ($usersall as $usersall) : ?>
                 <div class="card">
@@ -61,8 +60,6 @@ $usersall = mysqli_fetch_all($results1, MYSQLI_ASSOC);
             <?php endforeach ?>
         </div>
     </section>
-
-
 
 
     <script src="js/scripts.js"></script>
