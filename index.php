@@ -16,7 +16,7 @@
     <div class="container align-items-center container-main">
         <div class="row">
             <div class="form-div col-xs-12 col-sm-6">
-                <form action="index.php" method="POST" enctype="multipart/form-data">
+                <form action="index.php" method="POST" id="form" enctype="multipart/form-data">
 
                     <h3 class="text-center"> Window Registration Form </h3>
 
@@ -44,7 +44,9 @@
                     <div class="form-group">
                         <button name="save-user" type="submit" class="btn btn-primary btn-block">Register</button>
                     </div>
-
+                    <div class="form-group">
+                        <input type=submit value="reset" class="btn btn-primary btn-block" onclick="resetFunction()" name="reset-user">
+                    </div>
                     <div class="text-center"><a class="text-center btn btn-primary" style="margin-bottom: 20px;" href="/Ubisoft/profile.php">Go to User</a></div>
 
                 </form>

@@ -28,7 +28,7 @@ if (isset($_POST['save-user'])) {
             $css_class = "alert-danger";
         }
         if (mysqli_query($conn, $deleterow)) {
-            $msg = "Uploaded the Image SuccessFully";
+            $msg = "Deleted the users successfully";
             $css_class = "alert-success";
         }
     } else {
